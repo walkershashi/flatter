@@ -19,7 +19,7 @@ setup(
     packages = packages,
     install_requires = install_requires,
     license = "MIT",
-    url = "https://github.com/walkershashi/flatter"
+    url = "https://github.com/walkershashi/flatter",
 
     classifiers = [
         "Programming Language :: Python :: 3",
