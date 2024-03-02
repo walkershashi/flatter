@@ -1,12 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+import os
 
 packages = find_packages(
-    exclude=('doc', 'dist', 'build', 'fslpy.egg-info', 'tests')
+    exclude=("doc", "dist", "build", "fslpy.egg-info", "tests")
 )
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(here, 'requirements.txt'), 'rt') as f:
+with open(os.path.join(here, "requirements.txt"), "rt") as f:
     install_requires = [l.strip() for l in f.readlines()]
 
 setup(
