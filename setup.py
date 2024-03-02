@@ -13,8 +13,16 @@ setup(
     name = "flatter",
     version = "0.0.1",
     description = "Retuns the dataframe for the dictionary",
+    author = "Shashi Kumar",
+    author_email = "skssunny30@gmail.com",
     packages = packages,
     install_requires = install_requires,
     license = "MIT",
-    url = "https://github.com/walkershashi/samplePythonPackage"
+    url = "https://github.com/walkershashi/flatter"
+
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
 )
