@@ -34,7 +34,7 @@ jobs:
     - name: Publish package to Test Pypi
       run: | 
         python -m pip install --upgrade twine
-        twine upload --repository testpypi dist/*
-      with:
-        user: __token__
-        password: pypi-AgENdGVzdC5weXBpLm9yZwIkYWVkMDJhNDAtYWQzMC00NWExLTlkNmMtZDI5ODgzNjk2ZmMzAAIqWzMsIjE4Y2Q2MjMwLWFmZDgtNDY0My04ZTc0LThmZDc0NzVhYjdlOSJdAAAGIC5G7v5qGAqf8Iigo2E_n9ROEy4Uc_NnBRHRLiLtEjtn
+        twine upload --repository testpypi dist/* -u __token__ -p pypi-AgENdGVzdC5weXBpLm9yZwIkYWVkMDJhNDAtYWQzMC00NWExLTlkNmMtZDI5ODgzNjk2ZmMzAAIqWzMsIjE4Y2Q2MjMwLWFmZDgtNDY0My04ZTc0LThmZDc0NzVhYjdlOSJdAAAGIC5G7v5qGAqf8Iigo2E_n9ROEy4Uc_NnBRHRLiLtEjtn
+      # with:
+      #   user: __token__
+      #   password: pypi-AgENdGVzdC5weXBpLm9yZwIkYWVkMDJhNDAtYWQzMC00NWExLTlkNmMtZDI5ODgzNjk2ZmMzAAIqWzMsIjE4Y2Q2MjMwLWFmZDgtNDY0My04ZTc0LThmZDc0NzVhYjdlOSJdAAAGIC5G7v5qGAqf8Iigo2E_n9ROEy4Uc_NnBRHRLiLtEjtn
