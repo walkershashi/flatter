@@ -7,7 +7,7 @@ packages = find_packages(
 
 setup(
     name = "flatter",
-    version = "0.0.1",
+    version = "0.0.2",
     description = "Retuns the dataframe for the dictionary",
     author = "Shashi Kumar",
     author_email = "skssunny30@gmail.com",
